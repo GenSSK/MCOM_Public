@@ -39,7 +39,7 @@ To implement your own control using this library, modify these files accordingly
 
 ## Acknowledgment
 
-This library is the crystallization of collective knowledge. Special thanks go to [Mr. Kodai Kobayashi](https://github.com/orgs/crl-tdu/people/CRL-Kobayashi) and [Mr. Atsushi Inoue](https://github.com/ji1xcn).
+This library is the crystallization of collective knowledge. Special thanks go to [Kota Kobayashi](https://github.com/orgs/crl-tdu/people/CRL-Kobayashi) and [Yutaka Inoue](https://github.com/ji1xcn).
 
 ---
 

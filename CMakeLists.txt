@@ -18,8 +18,6 @@ include(f7_simple_udp/f7_simple_udp.cmake)
 INCLUDE_DIRECTORIES(${PROJECT_NAME}
         f7_simple_udp
         f7_enc
-        DAC-HAT
-        DAC-HAT/AD5754R
 )
 
 # executable MCOM
@@ -32,13 +30,9 @@ ADD_EXECUTABLE(${PROJECT_NAME}
         f7_simple_udp/f7eth.h
         f7_simple_udp/f7eth.cpp
         f7_enc/F7_enc.h
-        DAC-HAT/DAC_HAT.cpp
-        DAC-HAT/DAC_HAT.h
-        DAC-HAT/AD5754R/AD5754R.cpp
-        DAC-HAT/AD5754R/AD5754R.h
         dataStruct.h
         config.h
-#        function.h
+        function.h
         )
 
 SET_TARGET_PROPERTIES(${PROJECT_NAME} PROPERTIES ENABLE_EXPORTS 1)
